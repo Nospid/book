@@ -13,7 +13,7 @@ if (empty($id)) {
 
 
 
-$stock = find('stocks', $id);
+$stock = find('stock', $id);
 if (empty($stock)) {
     die("stock not found!");
 }

@@ -47,6 +47,11 @@
         </select>
     </div>
 
+    <div class="form-group">
+        <label for="name">Qty</label>
+        <input type="qty" id="qty" name="qty" class="form-control">
+    </div>
+
 
     <div class="form-group">
         <label for="image">Image</label>

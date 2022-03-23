@@ -14,7 +14,7 @@ require_once "db.php";
     <form>
         <div class="d-flex justify-content-start ">
             <?php foreach ($result as $r) : ?>
-                <div class="product-card bg-dark border m-2 p-2 pb-3 text-center sh" style="width: 240px; overflow: hidden">
+                <div class="product-card bg-white border m-2 p-2 pb-3 text-center sh" style="width: 240px; overflow: hidden">
                     <div class="product-image w-100" style="height: 250px; background-image:url('uploads/<?php echo $r['image']; ?>'); background-size: contain; background-position: center; background-repeat: no-repeat"></div>
                     <h4 class="card-title"><?php echo $r['name']; ?></h4>
                     <p class="card-text">Price:<?php echo $r['price']; ?></p>

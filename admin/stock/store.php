@@ -28,5 +28,5 @@ create('stock', ['product_id' => $name, 'qty' => $qty]);
 $pdo = pdo();
 $stmt = $pdo->prepare("UPDATE products set `qty` = `qty`+$qty WHERE `id` = $name");
 $stmt->execute();
-setSuccess('Category created successfully!');
+setSuccess('Stock created successfully!');
 header("Location: index.php");

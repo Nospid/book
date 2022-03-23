@@ -75,7 +75,11 @@
                     <i class="fas fa-fw  fa-car"></i>
                     <span>Stock</span></a>
             </li>
-
+            <li class="nav-item">
+                <a class="nav-link" href="<?php echo $page_url; ?>/order">
+                    <i class="fas fa-fw  fa-shopping-cart"></i>
+                    <span>Orders</span></a>
+            </li>
 
             <li class="nav-item">
                 <a class="nav-link" href="<?php echo $page_url; ?>/users">

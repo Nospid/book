@@ -4,7 +4,7 @@ require_once "../../db.php";
 ?>
 <div class="d-flex justify-content-between mb-4">
     <h3>Stocks</h3>
-    <a href="create.php" class="btn btn-info">Create</a>
+    <a href="create.php" class="btn btn-info">Add Stocks</a>
 </div>
 
 <?php if (hasSuccess()) : ?>
@@ -17,13 +17,19 @@ require_once "../../db.php";
     <thead>
         <tr>
             <th>ID</th>
-            <th>Product ID</th>
+            <th>ProductName</th>
             <th>Qunatity</th>
             <th>Action</th>
 
         </tr>
     </thead>
     <tbody>
+
+
+
+
+
+
         <?php
         $pdo = pdo();
         $stmt = $pdo->prepare("SELECT qty FROM stock");

@@ -4,6 +4,8 @@ $products = all("products");
 if (count($products) == 0) {
     die("No products found...");
 }
+
+
 ?>
 <div class="d-flex justify-content-between mb-4">
     <h3>Add Stock</h3>
